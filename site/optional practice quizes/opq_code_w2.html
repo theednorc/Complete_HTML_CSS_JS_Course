@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Element with Class Selector
+</title>
+<style>
+
+/* div p {
+  color: blue;
+} 
+
+div > p {
+  color: blue;
+}
+
+*/
+
+div.makeMeBlue p {
+  color: blue;
+}
+
+div > div > p {
+  color: blue;
+}
+</style>
+</head>
+<body>
+    <!-- <div>
+        <p>I am feeling blue</p>
+      </div>
+      <section>
+        <p>I just want to be left alone!</p>
+      </section> -->
+
+      <div>
+        <div>
+          <div class="makeMeBlue">
+            <p>I am feeling blue</p>
+          </div>
+        </div>
+        <section class="makeMeBlue">
+          <p>I just want to be left alone!</p>
+        </section>
+      </div>
+</body>
+</html>
+
+
