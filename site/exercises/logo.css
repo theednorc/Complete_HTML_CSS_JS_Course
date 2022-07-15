@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Kelly Slab';
+    font-size: 100px;
+    text-align: center;
+    color: #2471a3;
+    /* #6585a6 */
+    font-weight: bold;
+}
+
+img {
+    padding-top: 100px;
+    padding-left: 20px;
+}
